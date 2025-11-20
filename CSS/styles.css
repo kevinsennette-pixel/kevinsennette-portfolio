@@ -1,0 +1,140 @@
+.container {
+    width: 800px;                      /* Set a fixed width */
+    margin: 0 auto;                    /* A trick to center the box */
+    background-color: #ffffff;         /* A white background for the box */
+    padding: 20px;                     /* Space inside the box */
+    border-radius: 8px;                /* Nice rounded corners */
+    box-shadow: 0 2px 5px rgba(255, 249, 249, 0.1); /* A subtle drop shadow */
+h1 {
+    color: #ff2400;
+}
+
+h2 {
+    color: #ff2400; /* A nice blue color */
+    border-bottom: 2px solid #000000; /* A line underneath */
+    padding-bottom: 5px;
+}
+ header {
+    text-align: center; /* Center the header content */
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* This makes the image a circle */
+    border: 4px solid #ffffff; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #000000; /* A line to separate the footer */
+    font-size: 0.9em;
+    color: #ff2400;
+}
+
+footer a {
+    color: #000000; /* Use the same blue as our h2 */
+    text-decoration: none; /* Remove the underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Add underline back on hover */
+}
+/* --- Table Styles --- */
+table {
+    width: 100%; /* Make the table fill the container */
+    border-collapse: collapse; /* Remove ugly space between cells */
+    margin-top: 20px;
+}
+
+/* Style all table cells (headers and data) */
+th, td {
+    border-bottom: 1px solid #f0f4f8; /* Light line between rows */
+    padding: 12px 15px; /* Add space *inside* the cells */
+    text-align: left; /* Align text to the left */
+}
+
+/* Style just the header row */
+thead th {
+    background-color: #f0f4f8; /* Light gray background for header */
+    color: #ff2400; /* Blue text for header */
+    font-weight: bold;
+}
+
+/* Add a hover effect to body rows */
+tbody tr:hover {
+    background-color: #f8f8f8; /* Highlight row on hover */
+}
+/* --- Flexbox Layout (Features) --- */
+.features {
+    display: flex; /* This is the magic! Tells the div to be a flex container */
+    justify-content: space-between; /* Distribute items evenly */
+    gap: 20px; /* Add space between items */
+    margin-top: 20px;
+}
+
+.feature-item {
+    background-color: #f8f8f8;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    flex-basis: 32%; /* Each item takes up roughly 1/3 of the space */
+    text-align: center;
+}
+
+.feature-item h3 {
+    margin-top: 0;
+    font-size: 1.1em;
+    color: #ff2400;
+}
+
+.feature-item p {
+    font-size: 0.95em;
+}
+/* --- Form Styles --- */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block; /* Put label on its own line */
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 1.0em;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%; /* Make fields fill the container */
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box; /* Important for 100% width */
+}
+
+.form-group textarea {
+    min-height: 120px;
+    resize: vertical; /* Allow user to resize vertically */
+}
+
+.submit-button {
+    background-color: #005a9c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.submit-button:hover {
+    background-color: #004a80;
+}
+}

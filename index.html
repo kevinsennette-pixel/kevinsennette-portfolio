@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin Sennette - Portfolio</title><link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <img src="C:\Users\kevin\OneDrive\Desktop\my-portfolio\CSS\images\profile.jpg" alt="A photo of Kevin Sennette">
+        <h1>Kevin Sennette</h1>
+        <h2>First-Year Engineering Student</h2>
+    </header>
+
+    <main>
+        <section class="about-me">
+            <h2>About Me</h2>
+            <p>
+                Hello! I am a student at Texas Tech University
+            </p>
+        </section>
+        <section class="interests">
+            <!-- ... Your interests list ... -->
+             <h2>My Interests</h2>
+            <ul>
+                <li>Coding & Software</li>
+                <li>Robotics</li>
+                <li>3D Printing</li>
+                <li>Game Development</li>
+                <li>Cybersecurity</li>
+            </ul>
+        </section>
+
+        <!-- ADD THIS NEW SECTION -->
+        <section class="projects">
+            <h2>My Projects</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Description</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Project ENGR 1340</td>
+                        <td>Engineering design process.</td>
+                        <td>Fall 2025</td>
+                    </tr>
+                    <tr>
+                        <td>Personal Portfolio</td>
+                        <td>This website, built with HTML & CSS.</td>
+                        <td>Fall 2025</td>
+                    </tr>
+                    <tr>
+                        <td>(Your Next Project)</td>
+                        <td>(Add a description)</td>
+                        <td>(Add a date)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    <section class="key-features">
+            <h2>Key Features</h2>
+            <div class="features">
+                <div class="feature-item">
+                    <h3>Feature 1</h3>
+                    <p>This is the first key feature. It solves a user problem.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Feature 2</h3>
+                    <p>This is the second key feature. It's fast and reliable.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Feature 3</h3>
+                    <p>This is the third key feature. It's easy to use.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <p>Have a question or want to work together?</p>
+
+            <form action="mailto:ksennett@ttu.edu" method="POST" enctype="text/plain">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Kevin Sennette</p>
+        <p>
+            <a href="https://www.linkedin.com">Find me on LinkedIn</a> | 
+            <a href="https://github.com/kevinsennette-pixel">See my GitHub</a>
+        </p>
+    </footer>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
