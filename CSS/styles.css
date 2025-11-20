@@ -5,6 +5,7 @@
     padding: 20px;                     /* Space inside the box */
     border-radius: 8px;                /* Nice rounded corners */
     box-shadow: 0 2px 5px rgba(255, 249, 249, 0.1); /* A subtle drop shadow */
+}
 h1 {
     color: #ff2400;
 }
@@ -136,5 +137,4 @@ tbody tr:hover {
 
 .submit-button:hover {
     background-color: #004a80;
-}
 }
